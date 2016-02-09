@@ -1,6 +1,6 @@
 # d3-stateplane
 
-D3-friendly [State Plane projections](https://en.wikipedia.org/wiki/State_Plane_Coordinate_System). These don't incorporate scale/translate, so you probably want to [autoscale your projection](http://bl.ocks.org/mbostock/4707858).
+D3-friendly [NAD83 State Plane projections](https://en.wikipedia.org/wiki/State_Plane_Coordinate_System). These don't incorporate scale/translate, so you probably want to [autoscale your projection](http://bl.ocks.org/mbostock/4707858).
 
 ### NAD83 / Alabama East (EPSG:26929)
 
