@@ -1,6 +1,8 @@
 # d3-stateplane
 
-D3-friendly [State Plane projections](https://en.wikipedia.org/wiki/State_Plane_Coordinate_System). These don't incorporate scale/translate, so you probably want to [autoscale your projection](http://bl.ocks.org/mbostock/4707858).
+[1983 State Plane projections](https://en.wikipedia.org/wiki/State_Plane_Coordinate_System) in `d3.geo` format. These don't incorporate scale/translate, so you probably want to [autoscale your projection](http://bl.ocks.org/mbostock/4707858).  The list is also missing Alaska Zone 1's Oblique Mercator projection.
+
+See also: [New Jersey State Plane](https://bl.ocks.org/mbostock/5126418), [Ohio North State Plane](https://bl.ocks.org/mbostock/5349951)
 
 ### NAD83 / Alabama East (EPSG:26929)
 
@@ -923,4 +925,3 @@ var projection = d3.geo.conicConformal()
   .parallels([18 + 2 / 60, 18 + 26 / 60])
   .rotate([66 + 26 / 60, -17 - 50 / 60]);
 ```
-
