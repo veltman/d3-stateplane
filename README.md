@@ -79,7 +79,7 @@ var projection = d3.geoTransverseMercator()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([51 + 50 / 60, 53 + 50 / 60])
-  .rotate([176, 0);
+  .rotate([176, 0]);
 ```
 
 ### NAD83 / Arizona East (EPSG:26948)
@@ -108,7 +108,7 @@ var projection = d3.geoTransverseMercator()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([34 + 56 / 60, 36 + 14 / 60])
-  .rotate([92, 0);
+  .rotate([92, 0]);
 ```
 
 ### NAD83 / Arkansas South (EPSG:26952)
@@ -116,7 +116,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([33 + 18 / 60, 34 + 46 / 60])
-  .rotate([92, 0);
+  .rotate([92, 0]);
 ```
 
 ### NAD83 / California Zone 1 (EPSG:26941)
@@ -124,7 +124,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([40, 41 + 40 / 60])
-  .rotate([122, 0);
+  .rotate([122, 0]);
 ```
 
 ### NAD83 / California Zone 2 (EPSG:26942)
@@ -132,7 +132,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([38 + 20 / 60, 39 + 50 / 60])
-  .rotate([122, 0);
+  .rotate([122, 0]);
 ```
 
 ### NAD83 / California Zone 3 (EPSG:26943)
@@ -140,7 +140,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([37 + 4 / 60, 38 + 26 / 60])
-  .rotate([120 + 30 / 60, 0);
+  .rotate([120 + 30 / 60, 0]);
 ```
 
 ### NAD83 / California Zone 4 (EPSG:26944)
@@ -148,7 +148,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([36, 37 + 15 / 60])
-  .rotate([119, 0);
+  .rotate([119, 0]);
 ```
 
 ### NAD83 / California Zone 5 (EPSG:26945)
@@ -156,7 +156,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([34 + 2 / 60, 35 + 28 / 60])
-  .rotate([118, 0);
+  .rotate([118, 0]);
 ```
 
 ### NAD83 / California Zone 6 (EPSG:26946)
@@ -164,7 +164,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([32 + 47 / 60, 33 + 53 / 60])
-  .rotate([116 + 15 / 60, 0);
+  .rotate([116 + 15 / 60, 0]);
 ```
 
 ### NAD83 / Colorado North (EPSG:26953)
@@ -172,7 +172,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([39 + 43 / 60, 40 + 47 / 60])
-  .rotate([105 + 30 / 60, 0);
+  .rotate([105 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Colorado Central (EPSG:26954)
@@ -180,7 +180,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([38 + 27 / 60, 39 + 45 / 60])
-  .rotate([105 + 30 / 60, 0);
+  .rotate([105 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Colorado South (EPSG:26955)
@@ -188,7 +188,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([37 + 14 / 60, 38 + 26 / 60])
-  .rotate([105 + 30 / 60, 0);
+  .rotate([105 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Connecticut (EPSG:26956)
@@ -196,7 +196,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([41 + 12 / 60, 41 + 52 / 60])
-  .rotate([72 + 45 / 60, 0);
+  .rotate([72 + 45 / 60, 0]);
 ```
 
 ### NAD83 / Delaware (EPSG:26957)
@@ -225,7 +225,7 @@ var projection = d3.geoTransverseMercator()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([29 + 35 / 60, 30 + 45 / 60])
-  .rotate([84 + 30 / 60, 0);
+  .rotate([84 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Georgia East (EPSG:26966)
@@ -331,7 +331,7 @@ var projection = d3.geoTransverseMercator()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([42 + 4 / 60, 43 + 16 / 60])
-  .rotate([93 + 30 / 60, 0);
+  .rotate([93 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Iowa South (EPSG:26976)
@@ -339,7 +339,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([40 + 37 / 60, 41 + 47 / 60])
-  .rotate([93 + 30 / 60, 0);
+  .rotate([93 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Kansas North (EPSG:26977)
@@ -347,7 +347,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([38 + 43 / 60, 39 + 47 / 60])
-  .rotate([98, 0);
+  .rotate([98, 0]);
 ```
 
 ### NAD83 / Kansas South (EPSG:26978)
@@ -355,7 +355,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([37 + 16 / 60, 38 + 34 / 60])
-  .rotate([98 + 30 / 60, 0);
+  .rotate([98 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Kentucky North (EPSG:02205)
@@ -363,7 +363,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([37 + 58 / 60, 38 + 58 / 60])
-  .rotate([84 + 15 / 60, 0);
+  .rotate([84 + 15 / 60, 0]);
 ```
 
 ### NAD83 / Kentucky South (EPSG:26980)
@@ -371,7 +371,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([36 + 44 / 60, 37 + 56 / 60])
-  .rotate([85 + 45 / 60, 0);
+  .rotate([85 + 45 / 60, 0]);
 ```
 
 ### NAD83 / Louisiana North (EPSG:26981)
@@ -379,7 +379,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([31 + 10 / 60, 32 + 40 / 60])
-  .rotate([92 + 30 / 60, 0);
+  .rotate([92 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Louisiana South (EPSG:26982)
@@ -387,7 +387,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([29 + 18 / 60, 30 + 42 / 60])
-  .rotate([91 + 20 / 60, 0);
+  .rotate([91 + 20 / 60, 0]);
 ```
 
 ### NAD83 / Louisiana Offshore (EPSG:32199)
@@ -395,7 +395,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([26 + 10 / 60, 27 + 50 / 60])
-  .rotate([91 + 20 / 60, 0);
+  .rotate([91 + 20 / 60, 0]);
 ```
 
 ### NAD83 / Maine East (EPSG:26983)
@@ -417,7 +417,7 @@ var projection = d3.geoTransverseMercator()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([38 + 18 / 60, 39 + 27 / 60])
-  .rotate([77, 0);
+  .rotate([77, 0]);
 ```
 
 ### NAD83 / Massachusetts Mainland (EPSG:26986)
@@ -425,7 +425,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([41 + 43 / 60, 42 + 41 / 60])
-  .rotate([71 + 30 / 60, 0);
+  .rotate([71 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Massachusetts Island (EPSG:26987)
@@ -433,7 +433,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([41 + 17 / 60, 41 + 29 / 60])
-  .rotate([70 + 30 / 60, 0);
+  .rotate([70 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Michigan North (EPSG:26988)
@@ -441,7 +441,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([45 + 29 / 60, 47 + 5 / 60])
-  .rotate([87, 0);
+  .rotate([87, 0]);
 ```
 
 ### NAD83 / Michigan Central (EPSG:26989)
@@ -449,7 +449,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([44 + 11 / 60, 45 + 42 / 60])
-  .rotate([84 + 22 / 60, 0);
+  .rotate([84 + 22 / 60, 0]);
 ```
 
 ### NAD83 / Michigan South (EPSG:26990)
@@ -457,7 +457,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([42 + 6 / 60, 43 + 40 / 60])
-  .rotate([84 + 22 / 60, 0);
+  .rotate([84 + 22 / 60, 0]);
 ```
 
 ### NAD83 / Minnesota North (EPSG:26991)
@@ -465,7 +465,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([47 + 2 / 60, 48 + 38 / 60])
-  .rotate([93 + 6 / 60, 0);
+  .rotate([93 + 6 / 60, 0]);
 ```
 
 ### NAD83 / Minnesota Central (EPSG:26992)
@@ -473,7 +473,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([45 + 37 / 60, 47 + 3 / 60])
-  .rotate([94 + 15 / 60, 0);
+  .rotate([94 + 15 / 60, 0]);
 ```
 
 ### NAD83 / Minnesota South (EPSG:26993)
@@ -481,7 +481,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([43 + 47 / 60, 45 + 13 / 60])
-  .rotate([94, 0);
+  .rotate([94, 0]);
 ```
 
 ### NAD83 / Mississippi East (EPSG:26994)
@@ -524,7 +524,7 @@ var projection = d3.geoTransverseMercator()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([45, 49])
-  .rotate([109 + 30 / 60, 0);
+  .rotate([109 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Nebraska (EPSG:32104)
@@ -532,7 +532,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([40, 43])
-  .rotate([100, 0);
+  .rotate([100, 0]);
 ```
 
 ### NAD83 / Nevada East (EPSG:32107)
@@ -617,7 +617,7 @@ var projection = d3.geoTransverseMercator()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([40 + 40 / 60, 41 + 2 / 60])
-  .rotate([74, 0);
+  .rotate([74, 0]);
 ```
 
 ### NAD83 / North Carolina (EPSG:32119)
@@ -625,7 +625,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([34 + 20 / 60, 36 + 10 / 60])
-  .rotate([79, 0);
+  .rotate([79, 0]);
 ```
 
 ### NAD83 / North Dakota North (EPSG:32120)
@@ -633,7 +633,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([47 + 26 / 60, 48 + 44 / 60])
-  .rotate([100 + 30 / 60, 0);
+  .rotate([100 + 30 / 60, 0]);
 ```
 
 ### NAD83 / North Dakota South (EPSG:32121)
@@ -641,7 +641,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([46 + 11 / 60, 47 + 29 / 60])
-  .rotate([100 + 30 / 60, 0);
+  .rotate([100 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Ohio North (EPSG:32122)
@@ -649,7 +649,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([40 + 26 / 60, 41 + 42 / 60])
-  .rotate([82 + 30 / 60, 0);
+  .rotate([82 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Ohio South (EPSG:32123)
@@ -657,7 +657,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([38 + 44 / 60, 40 + 2 / 60])
-  .rotate([82 + 30 / 60, 0);
+  .rotate([82 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Oklahoma North (EPSG:32124)
@@ -665,7 +665,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([35 + 34 / 60, 36 + 46 / 60])
-  .rotate([98, 0);
+  .rotate([98, 0]);
 ```
 
 ### NAD83 / Oklahoma South (EPSG:32125)
@@ -673,7 +673,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([33 + 56 / 60, 35 + 14 / 60])
-  .rotate([98, 0);
+  .rotate([98, 0]);
 ```
 
 ### NAD83 / Oregon North (EPSG:32126)
@@ -681,7 +681,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([44 + 20 / 60, 46])
-  .rotate([120 + 30 / 60, 0);
+  .rotate([120 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Oregon South (EPSG:32127)
@@ -689,7 +689,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([42 + 20 / 60, 44])
-  .rotate([120 + 30 / 60, 0);
+  .rotate([120 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Pennsylvania North (EPSG:32128)
@@ -697,7 +697,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([40 + 53 / 60, 41 + 57 / 60])
-  .rotate([77 + 45 / 60, 0);
+  .rotate([77 + 45 / 60, 0]);
 ```
 
 ### NAD83 / Pennsylvania South (EPSG:32129)
@@ -705,7 +705,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([39 + 56 / 60, 40 + 58 / 60])
-  .rotate([77 + 45 / 60, 0);
+  .rotate([77 + 45 / 60, 0]);
 ```
 
 ### NAD83 / Rhode Island (EPSG:32130)
@@ -720,7 +720,7 @@ var projection = d3.geoTransverseMercator()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([32 + 30 / 60, 34 + 50 / 60])
-  .rotate([81, 0);
+  .rotate([81, 0]);
 ```
 
 ### NAD83 / South Dakota North (EPSG:32134)
@@ -728,7 +728,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([44 + 25 / 60, 45 + 41 / 60])
-  .rotate([100, 0);
+  .rotate([100, 0]);
 ```
 
 ### NAD83 / South Dakota South (EPSG:32135)
@@ -736,7 +736,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([42 + 50 / 60, 44 + 24 / 60])
-  .rotate([100 + 20 / 60, 0);
+  .rotate([100 + 20 / 60, 0]);
 ```
 
 ### NAD83 / Tennessee (EPSG:32136)
@@ -744,7 +744,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([35 + 15 / 60, 36 + 25 / 60])
-  .rotate([86, 0);
+  .rotate([86, 0]);
 ```
 
 ### NAD83 / Texas North (EPSG:32137)
@@ -752,7 +752,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([34 + 39 / 60, 36 + 11 / 60])
-  .rotate([101 + 30 / 60, 0);
+  .rotate([101 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Texas North Central (EPSG:32138)
@@ -760,7 +760,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([32 + 8 / 60, 33 + 58 / 60])
-  .rotate([98 + 30 / 60, 0);
+  .rotate([98 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Texas Central (EPSG:32139)
@@ -768,7 +768,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([30 + 7 / 60, 31 + 53 / 60])
-  .rotate([100 + 20 / 60, 0);
+  .rotate([100 + 20 / 60, 0]);
 ```
 
 ### NAD83 / Texas South Central (EPSG:32140)
@@ -776,7 +776,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([28 + 23 / 60, 30 + 17 / 60])
-  .rotate([99, 0);
+  .rotate([99, 0]);
 ```
 
 ### NAD83 / Texas South (EPSG:32141)
@@ -784,7 +784,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([26 + 10 / 60, 27 + 50 / 60])
-  .rotate([98 + 30 / 60, 0);
+  .rotate([98 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Utah North (EPSG:32142)
@@ -792,7 +792,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([40 + 43 / 60, 41 + 47 / 60])
-  .rotate([111 + 30 / 60, 0);
+  .rotate([111 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Utah Central (EPSG:32143)
@@ -800,7 +800,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([39 + 1 / 60, 40 + 39 / 60])
-  .rotate([111 + 30 / 60, 0);
+  .rotate([111 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Utah South (EPSG:32144)
@@ -808,7 +808,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([37 + 13 / 60, 38 + 21 / 60])
-  .rotate([111 + 30 / 60, 0);
+  .rotate([111 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Vermont (EPSG:32145)
@@ -823,7 +823,7 @@ var projection = d3.geoTransverseMercator()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([38 + 2 / 60, 39 + 12 / 60])
-  .rotate([78 + 30 / 60, 0);
+  .rotate([78 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Virginia South (EPSG:32147)
@@ -831,7 +831,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([36 + 46 / 60, 37 + 58 / 60])
-  .rotate([78 + 30 / 60, 0);
+  .rotate([78 + 30 / 60, 0]);
 ```
 
 ### NAD83 / Washington North (EPSG:32148)
@@ -839,7 +839,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([47 + 30 / 60, 48 + 44 / 60])
-  .rotate([120 + 50 / 60, 0);
+  .rotate([120 + 50 / 60, 0]);
 ```
 
 ### NAD83 / Washington South (EPSG:32149)
@@ -847,7 +847,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([45 + 50 / 60, 47 + 20 / 60])
-  .rotate([120 + 30 / 60, 0);
+  .rotate([120 + 30 / 60, 0]);
 ```
 
 ### NAD83 / West Virginia North (EPSG:32150)
@@ -855,7 +855,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([39, 40 + 15 / 60])
-  .rotate([79 + 30 / 60, 0);
+  .rotate([79 + 30 / 60, 0]);
 ```
 
 ### NAD83 / West Virginia South (EPSG:32151)
@@ -863,7 +863,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([37 + 29 / 60, 38 + 53 / 60])
-  .rotate([81, 0);
+  .rotate([81, 0]);
 ```
 
 ### NAD83 / Wisconsin North (EPSG:32152)
@@ -871,7 +871,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([45 + 34 / 60, 46 + 46 / 60])
-  .rotate([90, 0);
+  .rotate([90, 0]);
 ```
 
 ### NAD83 / Wisconsin Central (EPSG:32153)
@@ -879,7 +879,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([44 + 15 / 60, 45 + 30 / 60])
-  .rotate([90, 0);
+  .rotate([90, 0]);
 ```
 
 ### NAD83 / Wisconsin South (EPSG:32154)
@@ -887,7 +887,7 @@ var projection = d3.geoConicConformal()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([42 + 44 / 60, 44 + 4 / 60])
-  .rotate([90, 0);
+  .rotate([90, 0]);
 ```
 
 ### NAD83 / Wyoming East (EPSG:32155)
@@ -923,5 +923,5 @@ var projection = d3.geoTransverseMercator()
 ```js
 var projection = d3.geoConicConformal()
   .parallels([18 + 2 / 60, 18 + 26 / 60])
-  .rotate([66 + 26 / 60, 0);
+  .rotate([66 + 26 / 60, 0]);
 ```
